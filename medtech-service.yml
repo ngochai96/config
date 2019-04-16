@@ -6,6 +6,8 @@ spring:
 eureka:
    client:
       serviceUrl:
-         defaultZone: http://172.16.19.115:8761/eureka/
+         defaultZone: http://172.16.19.47:8761/eureka/
 
       
+message:
+  not_found: Khong tim thay .Vui long kiem tra lai
