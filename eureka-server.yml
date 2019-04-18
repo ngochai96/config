@@ -1,2 +1,7 @@
 server:
   port: 8761
+  
+spring:
+  boot:
+    admin:
+      context-path: /admin  #A different context path for Spring boot admin server has been provided avoiding conflict with eureka
